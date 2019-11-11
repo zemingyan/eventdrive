@@ -1,0 +1,8 @@
+syntax="proto3";
+option java_package = "org.serialization.redis.stringsotre";
+option java_outer_classname = "StringProtoBuff";
+/*#option java_multiple_files = true;*/
+
+message StringStore{
+    string value = 1;
+}

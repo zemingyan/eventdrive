@@ -1,0 +1,12 @@
+syntax="proto3";
+option java_package = "org.serialization.kafka.ordertopic";
+option java_outer_classname = "TopicProtoBuf";
+/*#option java_multiple_files = true;*/
+
+message Topic{
+    int32 oid = 1;
+    double money = 2;
+    map<int32,int32> map=3;
+    int32 uid = 4;
+    string uuid = 5;
+}
